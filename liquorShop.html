@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquor Shop Design</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/liquorShop.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div id="searchAndSelect">
+            <input type="search" name="search" id="search">
+            <span class="glyphicon glyphicon-search"></span>
+            <select name="lang" id="lang">
+                <option value="thailand">Thailand</option>
+                <option value="japan">Japan</option>
+                <option value="myanmar">Myanmar</option>
+            </select>
+        </div>
+        
+        <div class="clearfix">
+            <h1>LIQUOR SHOP</h1>
+            <p id="oitem"> <span class="glyphicon glyphicon-shopping-cart"></span> 0ITEM(S)</p>
+        </div>
+        <hr>
+        <div>
+            <ul id="nav">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#catalog">CATALOG</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#contact">CONTACTS</a></li>
+            </ul>
+        
+            <ul id="account">
+                <li>
+                    <span class="glyphicon glyphicon-user"></span>
+                    <a href="#creat">CREATE AN ACCOUNT</a>
+                </li>
+                <li>
+                    <i style="font-size:14px; color: red;" class="fa">&#xf13e;</i>
+                    <a href="#login">LOG IN</a>
+                </li>
+            </ul>
+        </div>
+        <div id="imgBar">
+            <img src="images/banner-5.jpg" width="100%" height="200" alt="img1">
+        </div>
+    </header>
+    <section>
+        <div class="categories">
+            <div>
+                <div class="categories_bars" style="background-image: url('images/wineglass1.jpg');">
+                    <p>SALE <br> 50% OFF</p>
+                    <a href="#">>&nbsp;DETAILS</a> 
+                </div>
+                <div class="categories_bars" style="background-image: url('images/wineglass2.jpg');">
+                    <p>NEW <br> PRODUCTS</p>
+                    <a href="#">&nbsp;DETAILS</a>
+                </div>
+                <div class="categories_bars" style="background-image: url('images/whiskeyglass2.jpg');">
+                    <p>BEST <br> SELLERS</p>
+                    <a href="#">>&nbsp;DETAILS</a>
+                </div>
+            </div> 
+
+            <div style="margin-top: 20px;">
+                <h4 style="font-weight: 12px;">FEATURED PRODUCTS</h4>
+            </div>
+            <hr style="border: 1px solid gray;">
+            <div class="feature_container">
+                <div class="feature_item">
+                    <div style="float: left;;width:38%;height:inherit;">
+                        <img src="images/wine_bottle2.jpg" alt="" width="100%" height="auto">
+                    </div> 
+
+                    <div style="width: 60%;float: right;margin-top: 10px;">
+                        <label style="font-size: 17px;color: black;">LOREM IPSUIA</label>
+                        <label style="color: gray;font-size: 10px;">IT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKE</label>
+                        <label style="font-size: 15px;color:red;">$38.50</label>
+                        <br>
+                        <button class="cart" style="background-color: black;"> 
+                            <a href="#" class="glyphicon glyphicon-shopping-cart">
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="feature_item">
+                    <div style="float: left;width:38%;height:inherit;margin-top: 10px;">
+                        <img src="images/sixBottle.jpeg" alt="" width="100%" height="150px">
+                    </div> 
+
+                    <div style="width: 60%;float: right;margin-top: 10px;">
+                        <label style="font-size: 17px;color:red;">DOLOECETRAS</label>
+                        <label style="color: gray;font-size: 10px;">IT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKE</label>
+                        <label style="font-size: 15px;color:red;">$38.50</label>
+                        <br>
+                        <button class="cart"> 
+                            <a href="#" class="glyphicon glyphicon-shopping-cart">
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="feature_item">
+                    <div style="float: left;width:38%;height:inherit;margin-top: 10px;">
+                        <img src="images/oneBottle.webp" alt="" width="100%" height="150px">
+                    </div> 
+
+                    <div style="width: 60%;float: right;margin-top: 10px;">
+                        <label style="font-size: 17px;color:red;">FERRODE MIAS</label>
+                        <label style="color: gray;font-size: 10px;">IT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKE</label>
+                        <label style="font-size: 15px;color:red;">$38.50</label>
+                        <br>
+                        <button class="cart"> 
+                            <a href="#" class="glyphicon glyphicon-shopping-cart">
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>  
+            <div class="feature_container">
+                <div class="feature_item">
+                    <div style="float: left;;width:38%;height:inherit;margin-top: 10px;">
+                        <img src="images/threeBottle.webp" alt="" width="100%" height="150px">
+                    </div> 
+
+                    <div style="width: 60%;float: right;margin-top: 10px;">
+                        <label style="font-size: 17px;color:red;">LOREM IPSUIA</label>
+                        <label style="color: gray;font-size: 10px;">IT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKE</label>
+                        <label style="font-size: 15px;color:red;">$38.50</label>
+                        <br>
+                        <button class="cart"> 
+                            <a href="#" class="glyphicon glyphicon-shopping-cart">
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="feature_item">
+                    <div style="float: left;;width:38%;height:inherit;margin-top: 10px;">
+                        <img src="images/fiveBottle.jpg" alt="" width="100%" height="150">
+                    </div> 
+
+                    <div style="width: 60%;float: right;margin-top: 10px;">
+                        <label style="font-size: 17px;color:red;">DOLOECETRAS</label>
+                        <label style="color: gray;font-size: 10px;">IT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKE</label>
+                        <label style="font-size: 15px;color:red;">$38.50</label>
+                        <br>
+                        <button class="cart"> 
+                            <a href="#" class="glyphicon glyphicon-shopping-cart">
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="feature_item">
+                    <div style="float: left;;width:38%;height:inherit;margin-top: 10px;">
+                        <img src="images/twoBottle.jpg" alt="" width="100%" height="150">
+                    </div> 
+
+                    <div style="width: 60%;float: right;margin-top: 10px;">
+                        <label style="font-size: 17px;color:red;">FERRODE MIAS</label>
+                        <label style="color: gray;font-size: 10px;">IT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKEIT IS WINE DO YOU LIKE</label>
+                        <label style="font-size: 15px;color:red;">$38.50</label>
+                        <br>
+                        <button class="cart"> 
+                            <a href="#" class="glyphicon glyphicon-shopping-cart">
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div id="sName" style="height: 200px;">
+            <div>
+                <article id="new">
+                    <p>NEW</p>
+                </article>
+                <article id="text">
+                    <p>BONNE <br> NOUVELLE <br> ROSE</p>
+                </article>
+                <article id="artBtn">
+                    <button><i class='fas fa-greater-than'></i></button>
+                    <input type="text" placeholder="ENTER SHOP" name="shopName" id="shopName">
+                </article>
+             
+            </div>   
+        </div>
+        <div id="upperLetter">
+            <h2>NEWSLETTER</h2> 
+            <hr>
+            <p style="color: red;font-weight: bold;">aenean nec estib ulum an ips um primis in fauciburciluctus ultricos</p>
+            <p style="text-align: justify;color: gray;">aenean nec estib ulum an ips um primis in fauciburciluctus ultricos
+                aenean nec estib ulum an ips um primis in fauciburciluctus ultricos
+                aenean nec estib ulum an ips um primis in fauciburciluctus ultricos
+            </p>
+            
+            <input type="text" name="subscribe" placeholder="ENTER YOUR EMAIL ADDRESS" id="subscribe">
+            <button>SUBSCRIBE</button>
+        </div>
+        
+    </section>
+    <footer>
+        <div id="upperFooter" class="clearfix">
+            <div id="linkGroup">
+                <div class="linkBox">
+                    <a href="#">about us</a>
+                    <a href="#">delivery</a>
+                    <a href="#">faqs</a>
+                    <a href="#">contacts</a>
+                </div>
+                <div class="linkBox">
+                    <a href="#">about 200mla!</a>
+                    <a href="#">wrappers</a>
+                    <a href="#">reviews</a>
+                    <a href="#">news</a>
+                </div>
+                <div class="linkBox">
+                    <a href="#">create an account</a>
+                    <a href="#">advanced search</a>
+                    <a href="#">order history</a>
+                </div>
+                <div class="linkBox">
+                    <a href="#">shipping & returns</a>
+                    <a href="#">group sales</a>
+                </div>
+                <div class="linkBox">
+                    <h5 style="color: red;">CONTACTS</h5>
+                    <p>4578 MARMORA ROAD.CLASCOW <br>
+                    D0489CR <br>
+                    1(234)567-9842</p>
+                </div>
+            </div>
+        </div>
+    
+        <div id="fbar" class="clearfix">
+            <p> @2015 LIQUOR SHOP.ALL RICHTS RESERVED. <a href="">200MLA!</a> IS FREE SOFTWARE RELEASED UNDER <a href="">THE CNU/CPL LICENSE</a></p>
+        </div>
+    </footer>
+    </body>
+    </html>
